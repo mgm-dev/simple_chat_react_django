@@ -1,0 +1,53 @@
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: calc(100vh - 40px);
+}
+
+.room-link:hover {
+  opacity: 0.7;
+}
+
+#footer {
+  border-top: #acacac solid 1px;
+  padding-top: 1rem;
+  color: #acacac;
+}
+
+#footer i {
+  color: #acacac;
+  margin-right: 0.5rem;
+}
+
+#input-room-id {
+  width: 50%;
+  margin: 2rem 0;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  border: #acacac 1px solid;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+#input-room-id:focus {
+  outline: none !important;
+  border: #0078d7 1px solid;
+}
+
+#home-image {
+  width: 60%;
+  min-width: 500px;
+}
+
+#home-form {
+  display: inline-block;
+}
+
+@media (max-width: 1500px) {
+  .home-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

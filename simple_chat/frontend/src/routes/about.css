@@ -1,0 +1,33 @@
+.about-container {
+  height: calc(100vh - 40px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-grid {
+  max-width: 800px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.grid-item img {
+  width: 200px;
+  height: 200px;
+}
+
+.grid-item h2 {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 800px) {
+  .about-grid {
+    margin-top: 100px;
+    grid-template-columns: 1fr;
+  }
+}

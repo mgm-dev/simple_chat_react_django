@@ -1,0 +1,52 @@
+.mypage-container {
+  height: calc(100vh - 40px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mypage-content {
+  text-align: center;
+  width: 480px;
+  height: 500px;
+  border: solid 1px #b2b2b2;
+  border-radius: 0.5rem;
+}
+
+.mypage-content img {
+  margin: 1rem 0;
+  width: 200px;
+}
+
+.mypage-content h2 {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+}
+
+.mypage-content h3 {
+  text-align: left;
+  padding-left: 2.5rem;
+  margin: 0.5rem 0.25rem 0 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.mypage-content .button-primary {
+  margin-top: 1rem;
+  display: inline-block;
+  width: 400px;
+}
+
+.mypage-content .button-primary:hover {
+  opacity: 0.7;
+}
+
+.mypage-content input {
+  padding: 0 0.5rem;
+  font-size: 1rem;
+  width: 400px;
+  height: 40px;
+  margin: 0.5rem 0 0 0;
+  border: #acacac 1px solid;
+}

@@ -1,0 +1,60 @@
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a :visited {
+  color: black;
+}
+
+ul {
+  display: flex;
+  align-items: baseline;
+}
+
+li {
+  display: inline;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  font-weight: 400;
+}
+
+li :hover {
+  border-bottom: #0078d7 solid 0.1rem;
+}
+
+i {
+  color: #666;
+}
+
+.nav-bar {
+  width: 100%;
+  background: #f3f3f3;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.nav-bar .container {
+  width: 95%;
+  max-width: none;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#title {
+  font-size: 1.3rem;
+}
+
+#logo-image {
+  height: 1rem;
+  margin-right: 0.2rem;
+}
+
+@media (max-width: 1000px) {
+  .nav-bar .container {
+    width: 95%;
+  }
+}

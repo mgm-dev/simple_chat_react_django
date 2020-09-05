@@ -1,0 +1,15 @@
+.iframe-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: calc(100vh - 40px);
+}
+
+iframe {
+  border: solid 1px #b2b2b2;
+  border-radius: 0.5rem;
+  display: block;
+  width: 80%;
+  height: 90%;
+  margin: 0 auto;
+}
