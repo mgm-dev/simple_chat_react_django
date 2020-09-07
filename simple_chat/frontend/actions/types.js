@@ -11,3 +11,6 @@ export const REGISTER_FAIL = 'REGISTER_FAIL';
 export const NEW_ROOM = 'NEW_ROOM';
 export const JOIN_ROOM = 'JOIN_ROOM';
 export const RESET_ROOM = 'RESET_ROOM';
+export const EMAIL_SUCCESS = 'EMAIL_SUCCESS';
+export const EMAIL_FAIL = 'EMAIL_FAIL';
+export const EMAIL_SENDING = 'EMAIL_SENDING';
